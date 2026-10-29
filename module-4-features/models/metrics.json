@@ -1,0 +1,43 @@
+{
+  "random_forest": {
+    "Time (sec)": 0.314,
+    "Accuracy": 0.8743,
+    "Precision": 0.5717,
+    "Recall": 0.7513,
+    "F1": 0.6493,
+    "ROC-AUC": 0.9262
+  },
+  "xgboost": {
+    "Time (sec)": 0.23,
+    "Accuracy": 0.8804,
+    "Precision": 0.5928,
+    "Recall": 0.7277,
+    "F1": 0.6533,
+    "ROC-AUC": 0.9219
+  },
+  "lightgbm": {
+    "Time (sec)": 0.14,
+    "Accuracy": 0.8727,
+    "Precision": 0.5651,
+    "Recall": 0.7723,
+    "F1": 0.6527,
+    "ROC-AUC": 0.9265
+  },
+  "catboost": {
+    "Time (sec)": 0.63,
+    "Accuracy": 0.869,
+    "Precision": 0.5526,
+    "Recall": 0.8115,
+    "F1": 0.6575,
+    "ROC-AUC": 0.9268
+  },
+  "best_model": "CatBoost (Optuna)",
+  "best_roc_auc": 0.9343089657484814,
+  "best_params": {
+    "iterations": 400,
+    "depth": 6,
+    "learning_rate": 0.016891885698301298,
+    "l2_leaf_reg": 9.984328022953667,
+    "border_count": 250
+  }
+}
