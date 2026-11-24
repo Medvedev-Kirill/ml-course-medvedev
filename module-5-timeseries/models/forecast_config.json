@@ -1,0 +1,12 @@
+{
+  "freq": "h",
+  "horizon": 168,
+  "lags": [
+    1,
+    24,
+    168
+  ],
+  "strategy": "recursive",
+  "best_model": "Seasonal Naive",
+  "mase_best": 0.863
+}

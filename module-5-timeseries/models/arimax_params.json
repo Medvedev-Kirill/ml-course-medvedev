@@ -1,0 +1,16 @@
+{
+  "order": [
+    1,
+    1,
+    1
+  ],
+  "seasonal_order": [
+    1,
+    0,
+    1,
+    24
+  ],
+  "trend": "n",
+  "enforce_stationarity": false,
+  "enforce_invertibility": false
+}

@@ -1,0 +1,17 @@
+[
+  "lag_1",
+  "lag_24",
+  "lag_168",
+  "hour",
+  "dow",
+  "month",
+  "is_weekend",
+  "hour_sin",
+  "hour_cos",
+  "dow_sin",
+  "dow_cos",
+  "rmean_24",
+  "rstd_24",
+  "rmean_168",
+  "rstd_168"
+]

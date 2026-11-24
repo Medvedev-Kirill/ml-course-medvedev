@@ -1,0 +1,50 @@
+[
+  {
+    "Model":"Naive",
+    "RMSE":20458.353,
+    "MAE":16996.28,
+    "MAPE (%)":50.442,
+    "sMAPE (%)":63.987,
+    "MASE":4.356
+  },
+  {
+    "Model":"Seasonal Naive",
+    "RMSE":5534.56,
+    "MAE":3368.155,
+    "MAPE (%)":10.898,
+    "sMAPE (%)":9.8,
+    "MASE":0.863
+  },
+  {
+    "Model":"ETS",
+    "RMSE":12067.835,
+    "MAE":10708.869,
+    "MAPE (%)":40.528,
+    "sMAPE (%)":54.076,
+    "MASE":2.745
+  },
+  {
+    "Model":"SARIMA",
+    "RMSE":9331.383,
+    "MAE":8531.77,
+    "MAPE (%)":37.465,
+    "sMAPE (%)":52.28,
+    "MASE":2.187
+  },
+  {
+    "Model":"ARIMAX+Fourier",
+    "RMSE":9842.053,
+    "MAE":8822.124,
+    "MAPE (%)":43.295,
+    "sMAPE (%)":63.718,
+    "MASE":2.261
+  },
+  {
+    "Model":"Gradient Boosting",
+    "RMSE":9385.447,
+    "MAE":7948.972,
+    "MAPE (%)":31.894,
+    "sMAPE (%)":29.741,
+    "MASE":2.037
+  }
+]
